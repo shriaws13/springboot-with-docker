@@ -15,6 +15,7 @@ spec:
       containers:
         - name: springboot
           image: shriaws13/jhooq-docker-demo:jhooq-docker-demo
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
