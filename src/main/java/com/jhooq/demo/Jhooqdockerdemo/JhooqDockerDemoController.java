@@ -8,6 +8,6 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "WOW Docker Demo - Hello Babude .. nowGitttWebHook";
+        return "WOW Docker Demo - Hello Babude .. ynowGitttWebHook";
     }
 }
